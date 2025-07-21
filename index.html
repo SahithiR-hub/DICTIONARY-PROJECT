@@ -1,0 +1,55 @@
+<html>
+<head>
+ <title>Index</title>
+ <style>
+    body{
+        background-color: black;
+    }
+    a{
+        color: aqua;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .word-box{
+        background-color: black;
+        padding: 30px;
+        height: 100px;
+        margin: 10px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-size: 20pt;
+        font-family: 'Arial';
+        display: flex;
+        align-items: center;
+        justify-content: center;
+         border: 2px solid transparent;
+          background-image: 
+            linear-gradient(black, black), /* Inner (invisible) fill */
+            linear-gradient( aqua,blue, red); /* Border gradient */
+        background-origin: border-box;
+        background-clip: padding-box, border-box;
+    }
+    #mainhead{
+        font-size: 32pt;
+        text-align: center;
+        background:linear-gradient(90deg,rgb(0, 251, 255),red);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+ </style>
+</head>
+<body >
+    <h1 id="mainhead">SIX WORDS EVERY PROFFESIONAL MUST KNOW</h1>
+    <div class="grid-container">
+    <a class="word-box" href="meticulous.html">Meticulous</a>
+    <a class="word-box" href="benchmark.html">Benchmark</a>
+    <a class="word-box" href="upbeat.html">Upbeat</a>
+    <a class="word-box" href="diligent.html">Diligent</a>
+    <a class="word-box" href="elucidate.html">Elucidate</a>
+    <a class="word-box" href="divulge.html">Divulge</a>
+    </div>
+</body>
+</html>

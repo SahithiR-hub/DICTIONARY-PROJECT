@@ -1,0 +1,84 @@
+<html>
+<head>
+    <title>benchmark</title>
+    <style>
+        body{
+            background-color: black;
+            color: aliceblue;
+        }
+        a{
+            color: aqua;
+        }
+        h1{
+            text-align:center;
+            font-size: 60pt;
+            background: linear-gradient(90deg,red,blue);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip:text;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns:repeat(2,1fr) ;
+            margin-bottom: 10px;
+        }
+        .word-box{
+            margin: 10px;
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 230px;
+            border: 2px solid transparent;
+            background-image: 
+            linear-gradient(black, black),
+            linear-gradient(blue, red);
+            background-origin:border-box ;
+            background-clip: padding-box, border-box;
+        }
+    </style>
+</head>
+<body>
+    <h1>BENCHMARK</h1>
+    <div class="grid-container">
+        <div class="word-box">
+            <ul>
+                <h3>Common uses of the word benchmark</h3>
+                <li>This product sets a new benchmark in quality.</li>
+                <li>Her performance is the benchmark for others.</li>
+                <li>We use these scores as a benchmark for improvement.</li>
+                <li>He reached the benchmark needed for promotion.</li>
+                <li>Benchmark tests help assess student learning.</li>
+            </ul>
+        </div>
+        <div class="word-box">
+            <table border="1">
+                <tr>
+                    <th>Synonyms</th><th>Antonyms</th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>standard</li>
+                            <li>yardstick</li>
+                            <li>criterion</li>
+                            <li>reference</li>
+                            <li>gauge</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>deviation</li>
+                            <li>anomaly</li>
+                            <li>exception</li>
+                            <li>abnormality</li>
+                            <li>outlier</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <center><a href="index.html">GO BACK TO HOME PAGE</a></center>
+</body>
+</html>

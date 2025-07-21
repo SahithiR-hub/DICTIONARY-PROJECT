@@ -1,0 +1,84 @@
+<html>
+<head>
+    <title>upbeat</title>
+    <style>
+        body{
+            background-color: black;
+            color: aliceblue;
+        }
+        a{
+            color: aqua;
+        }
+        h1{
+            text-align:center;
+            font-size: 60pt;
+            background: linear-gradient(90deg,red,blue);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip:text;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns:repeat(2,1fr) ;
+            margin-bottom: 10px;
+        }
+        .word-box{
+            margin: 10px;
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 230px;
+            border: 2px solid transparent;
+            background-image: 
+            linear-gradient(black, black),
+            linear-gradient(blue, red);
+            background-origin:border-box ;
+            background-clip: padding-box, border-box;
+        }
+    </style>
+</head>
+<body>
+    <h1>UPBEAT</h1>
+    <div class="grid-container">
+        <div class="word-box">
+            <ul>
+                <h3>Common uses of the word upbeat</h3>
+                <li>He remained upbeat despite the challenges.</li>
+                <li>The report gave an upbeat assessment of the economy.</li>
+                <li>She has an upbeat personality.</li>
+                <li>The music had a lively, upbeat rhythm.</li>
+                <li>Everyone was in an upbeat mood.</li>
+            </ul>
+        </div>
+        <div class="word-box">
+            <table border="1">
+                <tr>
+                    <th>Synonyms</th><th>Antonyms</th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>cheerful</li>
+                            <li>optimistic</li>
+                            <li>lively</li>
+                            <li>positive</li>
+                            <li>joyful</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>gloomy</li>
+                            <li>pessimistic</li>
+                            <li>downcast</li>
+                            <li>depressed</li>
+                            <li>melancholy</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <center><a href="index.html">GO BACK TO HOME PAGE</a></center>
+</body>
+</html>
